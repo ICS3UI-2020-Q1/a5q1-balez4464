@@ -16,16 +16,16 @@ public class Main {
 
     //asks user to input number
     System.out.println("Please enter an integer to create a multiplication table for");
-    //creates intergers for the usersnumber and the qoucient
+    //creates intergers for the usersnumber and the product
     int userNumber = input.nextInt();
-    int qoucient;
+    int product;
 
     //creates for loop for integer
     for(int multicator = 1; multicator <= 12; multicator++){
       //multiplys to get quoicent
-      qoucient = userNumber * multicator;
+      product = userNumber * multicator;
       //prints out the given equation
-      System.out.println(multicator + " x " + userNumber + " = " + qoucient);
+      System.out.println(multicator + " x " + userNumber + " = " + product);
     }
     
   }
